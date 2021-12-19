@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
                     letterSpacing: 2.5),
               ),
               Padding(
-                padding: EdgeInsets.fromLTRB(70, 0, 70, 0),
+                padding: EdgeInsets.fromLTRB(55, 0, 55, 0),
                 child: SizedBox(
 
                   height: 20,
@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.teal,
               ),
               Card(
-                margin: EdgeInsets.only(left: 40, right: 40),
+                margin: EdgeInsets.only(left: 50, right: 50),
                 // padding: EdgeInsets.all(10),
 
                 child: ListTile(
@@ -83,7 +83,7 @@ class MyApp extends StatelessWidget {
                       'tanishqchugh85@gmail.com',
                       style: TextStyle(
                         color: Colors.teal,
-                        fontSize: 20,
+                        fontSize: 17,
                         fontWeight: FontWeight.bold,
                         // wordSpacing: 2
                       ),
